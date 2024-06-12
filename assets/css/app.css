@@ -1,0 +1,55 @@
+body{
+    /* background: rgb(227, 70, 241); */
+     /* background: rgb(51, 146, 255); */
+     background: rgb(163, 51, 255);
+
+}
+
+.container
+{
+    background:white;
+    padding:10px;
+    border-radius: 10px;
+}
+
+.topic-dropdown,.mobile-number,.remark,.address
+{
+    width:30%;
+    padding:7px;
+    border:1px solid #ccc;
+    outline: none;
+    border-radius: 5px;
+}
+
+.redio-field
+{
+    display:flex;
+    gap:20px;
+    align-items:center;
+}
+
+.mobile-number
+{
+    width:auto;
+}
+.remark
+{
+    width:20%;
+}
+.mobileNo-field
+{
+    display:flex;
+    align-items:center;
+    gap:30px;
+}
+
+.checkbox-field
+{
+  text-align: center;
+}
+
+.checkbox-field input
+{
+   width:25px;
+   height:20px;
+}
